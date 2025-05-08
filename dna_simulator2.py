@@ -4,7 +4,7 @@ import numpy as np
 
 st.title("Relative DNA Content Simulator of Meiosis")
 
-s_phase_start = st.slider("S Start", 0.0, 5.0, 2.0, step=0.1)
+s_phase_start = st.slider("S Start", 0.0, 7.0, 2.0, step=0.1)
 s_phase_end = st.slider("G2 Start", s_phase_start + 0.1, 8.0, 4.0, step=0.1)
 m1_time = st.slider("M1 Metaphase", s_phase_end + 0.1, 9.0, 5.0, step=0.1)
 m2_time = st.slider("M2 Metaphase", m1_time + 0.1, 10.0, 6.0, step=0.1)
